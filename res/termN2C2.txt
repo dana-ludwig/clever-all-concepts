@@ -1,0 +1,1040 @@
+1|:|B-COLON
+2|.|B-DOT
+3|?|B-PUNCT
+4|!|B-PUNCT
+5|;|B-PUNCT
+6|,|B-PUNCT
+7|pt's|B-PT
+8|pt|B-PT
+9|patient|B-PT
+10|caregiver|B-CG
+11|care giver|B-CG
+12|wives|B-FAM
+13|wifes'|B-FAM
+14|wifes|B-FAM
+15|wife's|B-FAM
+16|wife|B-FAM
+17|uncles'|B-FAM
+18|uncles|B-FAM
+19|uncle's|B-FAM
+20|uncle|B-FAM
+21|spouses'|B-FAM
+22|spouses|B-FAM
+23|spouse's|B-FAM
+24|spouse|B-FAM
+25|sons'|B-FAM
+26|sons-in-law|B-FAM
+27| sons|B-FAM
+28|son's|B-FAM
+29|son-in-laws'|B-FAM
+30|son-in-law's|B-FAM
+31|son-in-law|B-FAM
+32| son |B-FAM
+33|sisters'|B-FAM
+34|sisters-in-law|B-FAM
+35|sisters|B-FAM
+36|sister's|B-FAM
+37|sister-in-laws'|B-FAM
+38|sister-in-law's|B-FAM
+39|sister-in-law|B-FAM
+40|sister|B-FAM
+41|parents'|B-FAM
+42|parents-in-laws'|B-FAM
+43|parents-in-law's|B-FAM
+44|parents-in-law|B-FAM
+45|parents|B-FAM
+46|parent's|B-FAM
+47|parent|B-FAM
+48|nieces'|B-FAM
+49|nieces|B-FAM
+50|niece's|B-FAM
+51|niece|B-FAM
+52|nephews'|B-FAM
+53|nephews|B-FAM
+54|nephew's|B-FAM
+55|nephew|B-FAM
+56|mums'|B-FAM
+57|mums|B-FAM
+58|mummys'|B-FAM
+59|mummys|B-FAM
+60|mummy's|B-FAM
+61|mummy|B-FAM
+62|mum's|B-FAM
+63|mum|B-FAM
+64|mothers'|B-FAM
+65|mothers-in-law|B-FAM
+66|mothers|B-FAM
+67|mother's|B-FAM
+68|mother-in-laws'|B-FAM
+69|mother-in-law's|B-FAM
+70|mother-in-law|B-FAM
+71|mother|B-FAM
+72|moms'|B-FAM
+73|moms|B-FAM
+74|mom's|B-FAM
+75|mom|B-FAM
+76|husbands'|B-FAM
+77|husbands|B-FAM
+78|husband's|B-FAM
+79|husband|B-FAM
+80|grooms'|B-FAM
+81|grooms|B-FAM
+82|groom's|B-FAM
+83|groom|B-FAM
+84|grannys'|B-FAM
+85|grannys|B-FAM
+86|granny's|B-FAM
+87|granny|B-FAM
+88|grandsons'|B-FAM
+89|grandsons|B-FAM
+90|grandson's|B-FAM
+91|grandson|B-FAM
+92|grandpas'|B-FAM
+93|grandpas|B-FAM
+94|grandparent|B-FAM
+95|grandpa's|B-FAM
+96|grandpa|B-FAM
+97|grandmothers'|B-FAM
+98|grandmothers|B-FAM
+99|grandmother's|B-FAM
+100|grandmother|B-FAM
+101|grandmas'|B-FAM
+102|grandmas|B-FAM
+103|grandma's|B-FAM
+104|grandma|B-FAM
+105|grandfathers'|B-FAM
+106|grandfathers|B-FAM
+107|grandfather's|B-FAM
+108|grandfather|B-FAM
+109|granddaughters'|B-FAM
+110|granddaughters|B-FAM
+111|granddaughter's|B-FAM
+112|granddaughter|B-FAM
+113|granddads'|B-FAM
+114|granddads|B-FAM
+115|granddad's|B-FAM
+116|granddad|B-FAM
+117|grandchilds'|B-FAM
+118|grandchilds|B-FAM
+119|grandchild's|B-FAM
+120|grandchild|B-FAM
+121|godsons'|B-FAM
+122|godsons|B-FAM
+123|godson's|B-FAM
+124|godson|B-FAM
+125|godmothers'|B-FAM
+126|godmothers|B-FAM
+127|godmother's|B-FAM
+128|godmother|B-FAM
+129|godfathers'|B-FAM
+130|godfathers|B-FAM
+131|godfather's|B-FAM
+132|godfather|B-FAM
+133|goddaughters'|B-FAM
+134|goddaughters|B-FAM
+135|goddaughter's|B-FAM
+136|goddaughter|B-FAM
+137|godchilds'|B-FAM
+138|godchilds|B-FAM
+139|godchildren|B-FAM
+140|godchild's|B-FAM
+141|godchild|B-FAM
+142|girlfriends'|B-FAM
+143|girlfriends|B-FAM
+144|girlfriend's|B-FAM
+145|girlfriend|B-FAM
+146|fiances'|B-FAM
+147|fiances|B-FAM
+148|fiancees'|B-FAM
+149|fiancees|B-FAM
+150|fiancee's|B-FAM
+151|fiancee|B-FAM
+152|fiance's|B-FAM
+153|fiance|B-FAM
+154|fathers'|B-FAM
+155|fathers-in-law|B-FAM
+156|fathers|B-FAM
+157|father's|B-FAM
+158|father-in-laws'|B-FAM
+159|father-in-law's|B-FAM
+160|father-in-law|B-FAM
+161|father|B-FAM
+162|family member|B-FAM
+163|family|B-FAM
+164|daughters'|B-FAM
+165|daughters-in-law|B-FAM
+166|daughters|B-FAM
+167|daughter's|B-FAM
+168|daughter-in-laws'|B-FAM
+169|daughter-in-law's|B-FAM
+170|daughter-in-law|B-FAM
+171|daughter|B-FAM
+172|dads'|B-FAM
+173|dads|B-FAM
+174|dad's|B-FAM
+175|dad|B-FAM
+176|cousins'|B-FAM
+177|cousins|B-FAM
+178|cousin's|B-FAM
+179|cousin|B-FAM
+180|childs'|B-FAM
+181|childs|B-FAM
+182|children|B-FAM
+183|child's|B-FAM
+184|child|B-FAM
+185|brothers'|B-FAM
+186|brothers-in-law|B-FAM
+187|brothers|B-FAM
+188|brother's|B-FAM
+189|brother-in-laws'|B-FAM
+190|brother-in-law's|B-FAM
+191|brother-in-law|B-FAM
+192|brother|B-FAM
+193|brides'|B-FAM
+194|brides|B-FAM
+195|bridegrooms'|B-FAM
+196|bridegrooms|B-FAM
+197|bridegroom's|B-FAM
+198|bridegroom|B-FAM
+199|bride's|B-FAM
+200|bride|B-FAM
+201|boyfriends'|B-FAM
+202|boyfriends|B-FAM
+203|boyfriend's|B-FAM
+204|boyfriend|B-FAM
+205|aunts'|B-FAM
+206|aunts|B-FAM
+207|aunt's|B-FAM
+208|aunt|B-FAM
+209|would argue against|B-NEGEX
+210|worrisome|B-NEGEX
+211|without signs|B-NEGEX
+212|without significant|B-NEGEX
+213|without sign of|B-NEGEX
+214|without obvious|B-NEGEX
+215|without indication of|B-NEGEX
+216|without gross|B-NEGEX
+217|without evidence of|B-NEGEX
+218|without evidence for|B-NEGEX
+219|without evidence|B-NEGEX
+220|without difficulty|B-NEGEX
+221|without definite|B-NEGEX
+222|without any evidence of|B-NEGEX
+223|without any|B-NEGEX
+224|without|B-NEGEX
+225|with no sign|B-NEGEX
+226|with no evidence|B-NEGEX
+227|with no definite|B-NEGEX
+228|with no|B-NEGEX
+229|with minimal|B-NEGEX
+230|will be ruled out for|B-NEGEX
+231|will be ruled out|B-NEGEX
+232|what must be ruled out is|B-NEGEX
+233|was ruled out|B-NEGEX
+234|very unlikely|B-NEGEX
+235|very low suspicion|B-NEGEX
+236|unremarkable for|B-NEGEX
+237|unlikley|B-NEGEX
+238|unlikely|B-NEGEX
+239|unknown|B-NEGEX
+240|to exclude|B-NEGEX
+241|there is no evidence|B-NEGEX
+242|there is no definite|B-NEGEX
+243|there is no|B-NEGEX
+244|there are no|B-NEGEX
+245|sufficient to rule the patient out for|B-NEGEX
+246|sufficient to rule the patient out against|B-NEGEX
+247|sufficient to rule the patient out|B-NEGEX
+248|sufficient to rule out for|B-NEGEX
+249|sufficient to rule out against|B-NEGEX
+250|sufficient to rule out|B-NEGEX
+251|sufficient to rule him out for|B-NEGEX
+252|sufficient to rule him out against|B-NEGEX
+253|sufficient to rule him out|B-NEGEX
+254|sufficient to rule her out for|B-NEGEX
+255|sufficient to rule her out against|B-NEGEX
+256|sufficient to rule her out|B-NEGEX
+257|strongly argues against|B-NEGEX
+258|speaks against|B-NEGEX
+259|shows no|B-NEGEX
+260|should be ruled out for|B-NEGEX
+261|should be ruled out|B-NEGEX
+262|seems unlikely given|B-NEGEX
+263|seems unlikely|B-NEGEX
+264|seems less likely|B-NEGEX
+265|rules the patient out for|B-NEGEX
+266|rules the patient out|B-NEGEX
+267|rules out for|B-NEGEX
+268|rules out|B-NEGEX
+269|rules him out for|B-NEGEX
+270|rules him out|B-NEGEX
+271|rules her out for|B-NEGEX
+272|rules her out|B-NEGEX
+273|ruled the patient out against|B-NEGEX
+274|ruled the patient out|B-NEGEX
+275|ruled out for|B-NEGEX
+276|ruled out against|B-NEGEX
+277|ruled out|B-NEGEX
+278|ruled him out for|B-NEGEX
+279|ruled him out against|B-NEGEX
+280|ruled him out|B-NEGEX
+281|ruled her out for|B-NEGEX
+282|ruled her out against|B-NEGEX
+283|ruled her out|B-NEGEX
+284|rule the patient out for|B-NEGEX
+285|rule the patient out|B-NEGEX
+286|rule out for|B-NEGEX
+287|rule out|B-NEGEX
+288|rule him out for|B-NEGEX
+289|rule him out|B-NEGEX
+290|rule her out for|B-NEGEX
+291|rule her out|B-NEGEX
+292|ro|B-NEGEX
+293|r/o|B-NEGEX
+294|r/o|B-NEGEX
+295|patient was not|B-NEGEX
+296|ought to be ruled out for|B-NEGEX
+297|ought to be ruled out|B-NEGEX
+298|otherwise no evidence of|B-NEGEX
+299|otherwise no|B-NEGEX
+300|other possibilities of|B-NEGEX
+301|not to be|B-NEGEX
+302|not see|B-NEGEX
+303|not necessarily|B-NEGEX
+304|not known to have|B-NEGEX
+305|not known|B-NEGEX
+306|not know of|B-NEGEX
+307|not have|B-NEGEX
+308|not had|B-NEGEX
+309|not feel|B-NEGEX
+310|not extend|B-NEGEX
+311|not exhibit|B-NEGEX
+312|not demonstrate|B-NEGEX
+313|not complain of|B-NEGEX
+314|not certain whether|B-NEGEX
+315|not certain if|B-NEGEX
+316|not cause|B-NEGEX
+317|not been ruled out|B-NEGEX
+318|not associated with|B-NEGEX
+319|not appreciate|B-NEGEX
+320|not applicable|B-NEGEX
+321|not appear|B-NEGEX
+324|not|B-NEGEX
+325|nor|B-NEGEX
+327|none|B-NEGEX
+328|no suspicious change|B-NEGEX
+329|no suspicious|B-NEGEX
+330|no suspicion|B-NEGEX
+331|no suggestion of|B-NEGEX
+332|no signs of|B-NEGEX
+333|no signs|B-NEGEX
+334|no significant interval change|B-NEGEX
+335|no significant change|B-NEGEX
+336|no significant|B-NEGEX
+337|no sign of|B-NEGEX
+338|no radiographic evidence of|B-NEGEX
+339|no other sign of|B-NEGEX
+340|no other evidence of|B-NEGEX
+341|no other evidence|B-NEGEX
+342|no other|B-NEGEX
+343|no obvious sign of|B-NEGEX
+344|no obvious|B-NEGEX
+345|no new evidence|B-NEGEX
+346|no new|B-NEGEX
+347|no mammographic evidence of|B-NEGEX
+348|no interval change|B-NEGEX
+349|no increase|B-NEGEX
+350|no gross|B-NEGEX
+351|no focal|B-NEGEX
+352|no findings to indicate|B-NEGEX
+353|no findings of|B-NEGEX
+354|no evident|B-NEGEX
+355|no evidence to suggest|B-NEGEX
+356|no evidence of distant metastatic disease|B-NEGEX
+357|no evidence of|B-NEGEX
+358|no evidence for|B-NEGEX
+359|no evidence|B-NEGEX
+360|no e/o|B-NEGEX
+361|no discrete|B-NEGEX
+362|no definitive evidence of|B-NEGEX
+363|no definitive|B-NEGEX
+364|no definite evidence of|B-NEGEX
+365|no definite evidence for|B-NEGEX
+366|no definite change|B-NEGEX
+367|no definite|B-NEGEX
+368|no convincing|B-NEGEX
+369|no complaints of|B-NEGEX
+370|no clear|B-NEGEX
+371|no change|B-NEGEX
+372|no certain evidence of|B-NEGEX
+373|no cause of|B-NEGEX
+374|no additional|B-NEGEX
+375|no abnormal|B-NEGEX
+376|no |B-NEGEX
+377|never had|B-NEGEX
+378|never developed|B-NEGEX
+379|negative for|B-NEGEX
+380|negative|B-NEGEX
+381|negative|B-NEGEX
+382|neg|B-NEGEX
+383|n/a|B-NEGEX
+384|must r/o|B-NEGEX
+385|must be ruled out for|B-NEGEX
+386|must be ruled out|B-NEGEX
+387|much less likely|B-NEGEX
+388|might be ruled out for|B-NEGEX
+389|might be ruled out|B-NEGEX
+390|may be ruled out for|B-NEGEX
+391|may be ruled out|B-NEGEX
+392|low suspicion|B-NEGEX
+393|low likelihood|B-NEGEX
+394|less likey|B-NEGEX
+395|less likely given|B-NEGEX
+396|is to be ruled out for|B-NEGEX
+397|is to be ruled out|B-NEGEX
+398|is ruled out|B-NEGEX
+399|inconsistant with|B-NEGEX
+400|however no|B-NEGEX
+401|however|B-NEGEX
+402|highly unlikely given|B-NEGEX
+403|highly doubt|B-NEGEX
+404|have been ruled out|B-NEGEX
+405|has not|B-NEGEX
+406|has been ruled out|B-NEGEX
+407|goes against|B-NEGEX
+408|free of|B-NEGEX
+409|free|B-NEGEX
+410|fails to show|B-NEGEX
+411|fails to reveal|B-NEGEX
+412|extremely unlikely|B-NEGEX
+413|except|B-NEGEX
+414|doubtful|B-NEGEX
+415|doesn't know|B-NEGEX
+416|doesn't have|B-NEGEX
+417|do not suspect|B-NEGEX
+418|do not|B-NEGEX
+419|did rule the patient out for|B-NEGEX
+420|did rule the patient out against|B-NEGEX
+421|did rule the patient out|B-NEGEX
+422|did rule out for|B-NEGEX
+423|did rule out against|B-NEGEX
+424|did rule out|B-NEGEX
+425|did rule him out for|B-NEGEX
+426|did rule him out against|B-NEGEX
+427|did rule him out|B-NEGEX
+428|did rule her out for|B-NEGEX
+429|did rule her out against|B-NEGEX
+430|did rule her out|B-NEGEX
+431|did not rule out|B-NEGEX
+432|denying|B-NEGEX
+433|deny|B-NEGEX
+434|denies having|B-NEGEX
+435|denies frank|B-NEGEX
+436|denies ever having|B-NEGEX
+437|denies any|B-NEGEX
+438|denies|B-NEGEX
+439|denied any|B-NEGEX
+440|denied|B-NEGEX
+441|demonstrates no|B-NEGEX
+442|demonstrate no|B-NEGEX
+443|declines|B-NEGEX
+444|declined|B-NEGEX
+445|could be ruled out for|B-NEGEX
+446|could be ruled out|B-NEGEX
+447|checked for|B-NEGEX
+448|cannot see|B-NEGEX
+449|cannot be|B-NEGEX
+450|can't remember|B-NEGEX
+451|can rule the patinet out for|B-NEGEX
+452|can rule the patinet out against|B-NEGEX
+453|can rule the patient out|B-NEGEX
+454|can rule out for|B-NEGEX
+455|can rule out against|B-NEGEX
+456|can rule out|B-NEGEX
+457|can rule him out for|B-NEGEX
+458|can rule him out against|B-NEGEX
+459|can rule him out|B-NEGEX
+460|can rule her out for|B-NEGEX
+461|can rule her out against|B-NEGEX
+462|can rule her out|B-NEGEX
+463|can be ruled out for|B-NEGEX
+464|can be ruled out|B-NEGEX
+465|but without|B-NEGEX
+466|but no sign of|B-NEGEX
+467|but no evidence of|B-NEGEX
+468|but no|B-NEGEX
+469|being ruled out|B-NEGEX
+470|been ruled out|B-NEGEX
+471|be ruled out for|B-NEGEX
+472|be ruled out|B-NEGEX
+473|arguing against|B-NEGEX
+474|argues strongly against|B-NEGEX
+475|argues against|B-NEGEX
+476|argue against|B-NEGEX
+477|are ruled out|B-NEGEX
+478|adequate to rule the patient out for|B-NEGEX
+479|adequate to rule the patient out against|B-NEGEX
+480|adequate to rule the patient out|B-NEGEX
+481|adequate to rule out for|B-NEGEX
+482|adequate to rule out|B-NEGEX
+483|adequate to rule him out for|B-NEGEX
+484|adequate to rule him out|B-NEGEX
+485|adequate to rule her out for|B-NEGEX
+486|adequate to rule her out|B-NEGEX
+487|absent|B-NEGEX
+488|absence of|B-NEGEX
+489|(-)|B-NEGEX
+490| strongly argues against|B-NEGEX
+491| no |B-NEGEX
+493| na|B-NEGEX
+494| n/a|B-NEGEX
+495|(+)|B-POS
+496|re-educated about|B-HYP
+497|provided education|B-HYP
+498|protection against|B-HYP
+499|protection|B-HYP
+500|protect against|B-HYP
+501|protect|B-HYP
+502|prophylaxsis|B-HYP
+503|prophylaxis against|B-HYP
+504|prophylaxis|B-HYP
+505|prophylactic|B-HYP
+506|prophy|B-HYP
+507|proph|B-HYP
+508|HYPentive strategies|B-HYP
+509|HYPentive measures|B-HYP
+510|HYPentive|B-HYP
+511|HYPention|B-HYP
+512|HYPenting|B-HYP
+513|HYPentative measure|B-HYP
+514|HYPentative|B-HYP
+515|HYPent recurrence|B-HYP
+516|HYPent future|B-HYP
+517|HYPent|B-HYP
+518|ppx|B-HYP
+519|mitigate|B-HYP
+520|help prevent|B-HYP
+521|educated regarding|B-HYP
+522|educated extensively|B-HYP
+523|educated about|B-HYP
+524|counseled extensively|B-HYP
+525|avoidance|B-HYP
+526|avoid|B-HYP
+527| reduce|B-HYP
+528|would be another consideration|B-HYP
+529|worrisome|B-HYP
+530|with question|B-HYP
+531|with probable|B-HYP
+532|with possible|B-HYP
+533|which raises the|B-HYP
+534|trigger event for|B-HYP
+535|there may be|B-HYP
+536|there could be|B-HYP
+537|theoretical risk|B-HYP
+538|suspicion of|B-HYP
+539|suspicion for|B-HYP
+540|suspicion|B-HYP
+541|suspected|B-HYP
+542|suspect|B-HYP
+543|suggests the possibility|B-HYP
+544|suggests possible|B-HYP
+545|suggests possibility of|B-HYP
+546|suggests either|B-HYP
+547|suggestive of|B-HYP
+548|suggestive|B-HYP
+549|suggestion of|B-HYP
+550|suggesting possible|B-HYP
+551|suggesting possibility of|B-HYP
+552|suggesting|B-HYP
+553|suggested by|B-HYP
+554|suggest the possibility|B-HYP
+555|suggest possibility of|B-HYP
+556|suggest|B-HYP
+557|sources of|B-HYP
+558|sources for|B-HYP
+559|source of|B-HYP
+560|source for|B-HYP
+561|slightly higher risk|B-HYP
+562|risks include|B-HYP
+563|risks associated|B-HYP
+564|risks alternatives|B-HYP
+565|risk factor|B-HYP
+566|risk|B-HYP
+567|resolved|B-HYP
+568|represents some|B-HYP
+569|raising the question|B-HYP
+570|raising the possibility of|B-HYP
+571|raising the|B-HYP
+572|raising question of|B-HYP
+573|raises the question|B-HYP
+574|raises possibility of|B-HYP
+575|raises concern about|B-HYP
+576|raises concern|B-HYP
+577|questionable mild|B-HYP
+578|question whether there is|B-HYP
+579|question related to|B-HYP
+580|question of|B-HYP
+581|propensity|B-HYP
+582|probably related to|B-HYP
+583|probably due to|B-HYP
+584|probable|B-HYP
+585|probability|B-HYP
+586|prob|B-HYP
+587|presumed|B-HYP
+588|potential side effects|B-HYP
+589|potential risks|B-HYP
+590|potential complications|B-HYP
+591|possibly due to|B-HYP
+592|possibly associated with|B-HYP
+593|possibly|B-HYP
+594|possiblity|B-HYP
+595|possible etiologies include|B-HYP
+596|possible|B-HYP
+597|possibily|B-HYP
+598|possibility of|B-HYP
+599|possibility|B-HYP
+600|possibel|B-HYP
+601|possibe|B-HYP
+602|possib|B-HYP
+603|plausible|B-HYP
+604|perhaps due to|B-HYP
+605|one would expect|B-HYP
+606|not ruled out|B-HYP
+607|not rule out|B-HYP
+608|must consider|B-HYP
+609|must be considered|B-HYP
+610|much higher risk|B-HYP
+611|most likley|B-HYP
+612|most likely explanation|B-HYP
+613|most likely|B-HYP
+614|might appear|B-HYP
+615|might|B-HYP
+616|mdm ddx|B-HYP
+617|may suggest|B-HYP
+618|may indicate|B-HYP
+619|may have|B-HYP
+620|may be indicative of|B-HYP
+621|may be|B-HYP
+622|may|B-HYP
+623|likely|B-HYP
+624|likelihood|B-HYP
+625|less likley|B-HYP
+626|less likely|B-HYP
+627|is suspected|B-HYP
+628|is suggested by|B-HYP
+629|inherent risks|B-HYP
+630|indications risks|B-HYP
+631|increased risk|B-HYP
+632|implying|B-HYP
+633|implies|B-HYP
+634|highly suggestive|B-HYP
+635|highest risk|B-HYP
+636|higher risk|B-HYP
+637|higher likelihood|B-HYP
+638|high risk|B-HYP
+639|high liklihood|B-HYP
+640|high likelihood|B-HYP
+641|has not been definitively |B-HYP
+642|greater risk|B-HYP
+643|further eval|B-HYP
+644|findings suspicious for|B-HYP
+645|findings suggestive of|B-HYP
+646|findings suggest|B-HYP
+647|doubt infectious|B-HYP
+648|doubt|B-HYP
+649|disease suspected|B-HYP
+650|differential includes|B-HYP
+651|diffdx|B-HYP
+652|diff dx includes|B-HYP
+653|diff dx|B-HYP
+654|ddx uti|B-HYP
+655|ddx most likely|B-HYP
+656|ddx includes|B-HYP
+657|ddx included|B-HYP
+658|ddx include|B-HYP
+659|ddx incl|B-HYP
+660|ddx|B-HYP
+661|ddx|B-HYP
+662|could lead|B-HYP
+663|could be due to|B-HYP
+664|could be|B-HYP
+665|concerning for|B-HYP
+666|concern for possible|B-HYP
+667|concern for|B-HYP
+668|concern|B-HYP
+669|conceivable that|B-HYP
+670|complication|B-HYP
+671|chances|B-HYP
+672|chance|B-HYP
+673|cannot rule out|B-HYP
+674|cannot r/o|B-HYP
+675|cannot exclude|B-HYP
+676|and probable|B-HYP
+677|and possible|B-HYP
+678|although|B-HYP
+679|also cannot exclude|B-HYP
+680|adverse outcomes|B-HYP
+681|yearly screening|B-SCREEN
+682|those tests|B-SCREEN
+683|those results|B-SCREEN
+684|these tests|B-SCREEN
+685|tests|B-SCREEN
+686|testings|B-SCREEN
+687|testing|B-SCREEN
+688|tested|B-SCREEN
+689|test results|B-SCREEN
+690|test for|B-SCREEN
+691|test|B-SCREEN
+692|surveillance|B-SCREEN
+693|study|B-SCREEN
+694|studies|B-SCREEN
+695|screens|B-SCREEN
+696|screenings|B-SCREEN
+697|screening tool|B-SCREEN
+698|screening tests|B-SCREEN
+699|screening test|B-SCREEN
+700|screening purposes|B-SCREEN
+701|screening labs|B-SCREEN
+702|screening laboratories|B-SCREEN
+703|screening colonoscopy|B-SCREEN
+704|screening|B-SCREEN
+705|screened|B-SCREEN
+706|screen|B-SCREEN
+707|scan|B-SCREEN
+708|routine screening|B-SCREEN
+709|retesting|B-SCREEN
+710|retested|B-SCREEN
+711|retest|B-SCREEN
+712|prostate cancer screening|B-SCREEN
+713|panel|B-SCREEN
+714|laboratory testing|B-SCREEN
+715|lab tests|B-SCREEN
+716|lab testing|B-SCREEN
+717|health maintenance|B-SCREEN
+718|health care maintenance|B-SCREEN
+719|glucose tolerance test|B-SCREEN
+720|genotyping|B-SCREEN
+721|genetic testing|B-SCREEN
+722|genetic screening|B-SCREEN
+723|exam|B-SCREEN
+724|evaluation for|B-SCREEN
+725|evaluation|B-SCREEN
+726|evaluate for|B-SCREEN
+727|evalaute|B-SCREEN
+728|eval for|B-SCREEN
+729|eval|B-SCREEN
+730|confirmatory_test|B-SCREEN
+731|colon cancer screening|B-SCREEN
+732|cancer screening|B-SCREEN
+733|blood work|B-SCREEN
+734|blood tests|B-SCREEN
+735|assessmet|B-SCREEN
+736|assessment|B-SCREEN
+737|assays|B-SCREEN
+738|assay|B-SCREEN
+739|antibody_test|B-SCREEN
+740|antibody test|B-SCREEN
+741|annual screening|B-SCREEN
+742|patient history|B-HX
+743|past|B-HX
+744|hx|B-HX
+745|ho|B-HX
+746|history of|B-HX
+747|history|B-HX
+748|h/o|B-HX
+749|h x|B-HX
+1001|acid|ACID
+1002|acidosis|ACID
+1003|ketoacid|KETOACIDOSIS
+1004|ketoacidoses|KETOACIDOSIS
+1005|ketoacidosis|KETOACIDOSIS
+1006|keto acidocsis|KETOACIDOSIS
+1007|hgba|HBA1C
+1008|ketone|KETONE
+1009|hemoglobin a1c|HBA1C
+1010|hgb a1c|HBA1C
+1011| cr|CREATININE
+1012|creatinine|CREATININE
+1013|hgba1c|HBA1C
+1014|acetylsalicylic acid|ASPIRIN
+1015|asa|ASPIRIN
+1016|aspirin|ASPIRIN
+1017|pt on asa|ASPIRIN
+1018|calcium|DIETSUPP
+1019|calcium carbonate|DIETSUPP
+1020|iron|DIETSUPP
+1021|iron supplement|DIETSUPP
+1022|multivitamin|DIETSUPP
+1023|vitamin d|DIETSUPP
+1024|centrum|DIETSUPP
+1025|multi-vitamin|DIETSUPP
+1026|zinc|DIETSUPP
+1027|vitamin|DIETSUPP
+1028|vitamin k|DIETSUPP
+1029|vitamin e|DIETSUPP
+1030|vitamin c|DIETSUPP
+1031|vitamin b6|DIETSUPP
+1032|vitamin b12|DIETSUPP
+1033|vitamin b1|DIETSUPP
+1034|vitamin a|DIETSUPP
+1035|thiamin|DIETSUPP
+1036|selenium|DIETSUPP
+1037|riboflavin|DIETSUPP
+1040|panthenic acid|DIETSUPP
+1041|naicin|DIETSUPP
+1042|iron pill|DIETSUPP
+1043|iron supplement|DIETSUPP
+1044|iodine|DIETSUPP
+1045|folate|DIETSUPP
+1046|flouride|DIETSUPP
+1047|chromium supplement|DIETSUPP
+1048|calcium supplement|DIETSUPP
+1049|thiamine|DIETSUPP
+1050|riboflavin|DIETSUPP
+1051|niacin|DIETSUPP
+1052|biotin|DIETSUPP
+1053|folic acid|DIETSUPP
+1054|antioxident|DIETSUPP
+1055|b12 |DIETSUPP
+1056|b6 |DIETSUPP
+1057|advair|CAD-RX
+1058|amlodipine|CAD-RX
+1059|atenolol|CAD-RX
+1060|atorvastatin|CAD-RX
+1061|captopril|CAD-RX
+1062|cozaar|CAD-RX
+1063|diltiazem|CAD-RX
+1064|enalapril|CAD-RX
+1065|enalapril maleate|CAD-RX
+1066|hctz|CAD-RX
+1067|hydrochlorothiazide|CAD-RX
+1068|lasix|CAD-RX
+1069|lipitor|CAD-RX
+1070|lisinopril|CAD-RX
+1071|lisinorpill|CAD-RX
+1072|lopressor|CAD-RX
+1073|lovastatin|CAD-RX
+1074|metoprolol|CAD-RX
+1075|mevacor|CAD-RX
+1076|nitropaste|CAD-RX
+1077|nitropatch|CAD-RX
+1078|norvasc|CAD-RX
+1079|plavix|CAD-RX
+1080|propranolol|CAD-RX
+1081|toprol-XL|CAD-RX
+1082|zestril|CAD-RX
+1083|zocor|CAD-RX
+1084|statin|CAD-RX
+1085|lovastatin|CAD-RX
+1086|mevacor|CAD-RX
+1087|pravastatin|CAD-RX
+1088|pravachol|CAD-RX
+1089|lescol|CAD-RX
+1090|zocor|CAD-RX
+1091|crestor|CAD-RX
+1092|lipitor|CAD-RX
+1093|fluvastatin|CAD-RX
+1094|simvastatin|CAD-RX
+1095|rosuvastatin|CAD-RX
+1096|atorvastatin|CAD-RX
+1097|fibrate|CAD-RX
+1098|fenofibrate|CAD-RX
+1099|gemfivrozil|CAD-RX
+1100|tricor|CAD-RX
+1101|lopid|CAD-RX
+1102|HYPalite|CAD-RX
+1103|cholestyramine|CAD-RX
+1104|questran|CAD-RX
+1105|colestipol|CAD-RX
+1106|colestid|CAD-RX
+1107|colesevelam|CAD-RX
+1108|welchol|CAD-RX
+1109|plavix|CAD-RX
+1110|effient|CAD-RX
+1111|clopidogrel|CAD-RX
+1112|brilinta|CAD-RX
+1113|ticagrelor|CAD-RX
+1114|beta blocker|CAD-RX
+1115|beta-blocker|CAD-RX
+1116|acebutolol|CAD-RX
+1117|sectral|CAD-RX
+1118|atenolol|CAD-RX
+1119|tenormin|CAD-RX
+1120|bisoprolol|CAD-RX
+1121|zebeta|CAD-RX
+1122|metoprolol|CAD-RX
+1123|lopressor|CAD-RX
+1124|toprol|CAD-RX
+1125|toprol-xl|CAD-RX
+1126|nadolol|CAD-RX
+1127|corgard|CAD-RX
+1128|nebivolol|CAD-RX
+1129|bystolic|CAD-RX
+1130|propranolol|CAD-RX
+1131|inderal|CAD-RX
+1132| ntg |CAD-RX
+1133|innopran|CAD-RX
+1134|glycerol trinitrate|CAD-RX
+1136|isosorbide dinitrate|CAD-RX
+1137|isosorbide mononitrate |CAD-RX
+1138|dilatrate|CAD-RX
+1139|isobid|CAD-RX
+1140|iso-bid|CAD-RX
+1141|isorbid|CAD-RX
+1142|isordil|CAD-RX
+1143|isonate|CAD-RX
+1144|isotrate|CAD-RX
+1145|ace inhibitors|CAD-RX
+1146|receptor blockers|CAD-RX
+1147|amlodipine|CAD-RX
+1148|norvasc|CAD-RX
+1149|bepridil|CAD-RX
+1150|vascor|CAD-RX
+1151|cardizem|CAD-RX
+1152|felodipine|CAD-RX
+1153|isradipine|CAD-RX
+1154|nicardipine|CAD-RX
+1155|nifedipine|CAD-RX
+1156|adalet|CAD-RX
+1157|procardia|CAD-RX
+1158|nisoldipine|CAD-RX
+1159| sular|CAD-RX
+1160|verapamil|CAD-RX
+1161| calan |CAD-RX
+1162|verelan|CAD-RX
+1163|anginal symptoms|CAD-DX
+1164|coronary artery disease|CAD-DX
+1166|inferior ischemia|CAD-DX
+1167|inferior stemi|CAD-DX
+1168|inferolateral ischemia|CAD-DX
+1169|ischemia|CAD-DX
+1170|ischemic colitis|CAD-DX
+1171|ischemic equivalent|CAD-DX
+1172|lateral stemi|CAD-DX
+1173| mi |CAD-MI
+1174|myocardial infarction|CAD-MI
+1175|inferior stemi|CAD-DX
+1176|instemi|CAD-DX
+1177|prior transient ischemic attack|CAD-DX
+1179|status post imi|CAD-MI
+1180|stemi|CAD-DX
+1181|unstable angina|CAD-DX
+1182|acute mi|CAD-MI
+1183|myocardial infarction|CAD-MI
+1184| ami |CAD-MI
+1186|cardiac infarction|CAD-MI
+1187|myocardial infarction|CAD-MI
+1188|diabetes|DM
+1189|diabetic|DM
+1190|dmt2|DM
+1191|dm |DM
+1192|amputation|AMP
+1195|retinopathy|EYE
+1196|retinopath|EYE
+1197|macular degeneration|EYE
+1199|retinal necrosis|EYE
+1200|blockage retinal artery|EYE
+1201|chorioretinal|EYE
+1202|refsum's syndrome|EYE
+1203|retinal dystrophy|EYE
+1204|neuropathy|NEURO
+1205|paresthesias in feet|NEURO
+1206|polyneuropathy|NEURO
+1207|peripheral nerve disorder|NEURO
+1208|peripheral nervous system disorder|NEURO
+1209|peripheral neuropathy|NEURO
+1210|peripheral nervous system disease|NEURO
+1211|neuropathy|NEURO
+1212|idiopathic peripheral neuropathy|NEURO
+1213|axonal neuropathy|NEURO
+1214|nerve entrapment syndrome|NEURO
+1215|ckd|RENAL
+1216|kidney damage|RENAL
+1217|nephropathy|RENAL
+1218|kidney failure|RENAL
+1219|hyperuricemic nephropathy|RENAL
+1220|renal failure|RENAL
+1221| sx|SX
+1222|removal of foot|AMP
+1223|amputated|AMP
+1224|stomach|ABDOMINAL
+1225|surgical removal of|AMP
+1226|excision|AMP
+1227|closure of stump|AMP
+1228|cineplastic prosthesis of extremity|AMP
+1229|bowel|ABDOMINAL
+1230|abdominal|ABDOMINAL
+1231|large intestine|ABDOMINAL
+1232|polypectomy|ABDOMINAL
+1233|resection|SX
+1234|surgery|SX
+1235|intestine|ABDOMINAL
+1236|alzheimer's|MAKES-DECISIONS
+1237|alzheimers|MAKES-DECISIONS
+1238|severe dementia|MAKES-DECISIONS
+1239|haloperidol|MAKES-DECISIONS
+1240|haldol|MAKES-DECISIONS
+1241|hydergine|MAKES-DECISIONS
+1242|unable to make decisions|MAKES-DECISIONS
+1243|inability to make decisions|MAKES-DECISIONS
+1244|severe dementia|MAKES-DECISIONS
+1245|haloperidol|MAKES-DECISIONS
+1246|haldol|MAKES-DECISIONS
+1247|hydergine|MAKES-DECISIONS
+1248|retarded|MAKES-DECISIONS
+1249|hydergine|MAKES-DECISIONS
+1250|hydergine|MAKES-DECISIONS
+1251|chinese|NOENGLISH
+1252|mandarin|NOENGLISH
+1253|english|NOENGLISH
+1254|spanish|NOENGLISH
+1255|chinease|NOENGLISH
+1256|mandarin|NOENGLISH
+1258|russian|NOENGLISH
+1259|japanese|NOENGLISH
+1260|german|NOENGLISH
+1261|portugese|NOENGLISH
+1262|bengali|NOENGLISH
+1263|arabic|NOENGLISH
+1264|hindustani|NOENGLISH
+1265|tagali|NOENGLISH
+1266|cantonese|NOENGLISH
+1267|french|NOENGLISH
+1268|speaks|SPEAKS
+1269|spoken|SPEAKS
+1270|language|SPEAKS
+1271|does not speak english|ESL
+1272|translater needed|ESL
+1273|no english|ESL
+1274|translater required|ESL
+1275|alcohol|ALCOHOL
+1276|alcohol abuse|ALCOHOL-ABUSE
+1277|abuse|ABUSE
+1278|drinks|ALCOHOL
+1280|etoh|ALCOHOL
+1281|heavy|ABUSE
+1282|excessive alcohol|ALCOHOL-ABUSE
+1283|heavy etoh use|ALCOHOL-ABUSE
+1284|alcoholism|ALCOHOL-ABUSE
+1285|problem drinking|ALCOHOL-ABUSE
+1286|etoh abuse|ALCOHOL-ABUSE
+1287|binge drinking|ALCOHOL-ABUSE
+1288|problem|ABUSE
+1289|binge|ABUSE
+1290|excessive|ABUSE
+1291|drunk|ALCOHOL-ABUSE
+1292|alcoholic|ALCOHOL-ABUSE
+1294|heavy|ABUSE
+1295|iv drug use|DRUG-ABUSE
+1296|cocaine|DRUG-ABUSE
+1297|ivdu|DRUG-ABUSE
+1298|heroin|DRUG-ABUSE
+1299|illicit drug use|DRUG-ABUSE
+1300|illicit drugs|DRUGS
+1301|iv du|DRUG-ABUSE
+1302|substance abuse|DRUG-ABUSE
+1303|junkie|DRUG-ABUSE
+1304|illegal drug|DRUG-ABUSE
+1305|detoxification|DETOX
+1306|drug detox|DETOX
+1307|alcohol detox|DETOX
