@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 '''
-@athors: Suzanne Tamang, Tanya Podchiyska
+@authors: Suzanne Tamang, Tanya Podchiyska
 @date: 06/14/2020
 @version: 0.9.2
 @status: Development
